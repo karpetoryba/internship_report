@@ -1,0 +1,52 @@
+/* style.css */
+body {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.qa-section button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.qa-section button:hover {
+  background-color: #0056b3;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 15px;
+  margin-top: 0;
+  background: #f9f9f9;
+  border-left: 3px solid #007bff;
+  transition: all 0.5s ease;
+}
+
+.answer.show {
+  padding: 15px;
+  margin-top: 5px;
+  max-height: 500px; /* Adjust based on content */
+}
