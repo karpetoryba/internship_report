@@ -18,7 +18,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.qa-section button {
+.section button {
   width: 100%;
   padding: 10px;
   font-size: 18px;
@@ -31,7 +31,7 @@ body {
   transition: background-color 0.3s;
 }
 
-.qa-section button:hover {
+.section button:hover {
   background-color: #0056b3;
 }
 
@@ -48,5 +48,5 @@ body {
 .answer.show {
   padding: 15px;
   margin-top: 5px;
-  max-height: 500px; /* Adjust based on content */
+  max-height: 500px;
 }
