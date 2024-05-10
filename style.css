@@ -1,17 +1,17 @@
 /* style.css */
 body {
   font-family: "Times New Roman", Times, serif, sans-serif;
-  background: #f4f4f4;
+  background-image: #f4f4f4;
   margin: 0;
   padding: 20px;
-  color: #333;
+  color: #007bff;
 }
 .title {
   display: flex;
   justify-content: center;
 }
 .container {
-  width: 80%;
+  width: 60%;
   margin: auto;
   background: white;
   padding: 20px;
